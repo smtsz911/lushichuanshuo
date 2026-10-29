@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bec8c1688ea24ea4a80461a7aa92b489, type: 3}
+  m_Name: "\u6218\u7565\u8FED\u4EE3"
+  m_EditorClassIdentifier: Assembly-CSharp::SpellcraftSpellData
+  "\u540D\u79F0": "\u6218\u7565\u8FED\u4EE3"
+  "ID": "BG31_920_Gt"
+  "\u63CF\u8FF0": "\u968F\u673A\u83B7\u53D6\u4E24\u5F20\u7B49\u7EA71\u7684\u7EB3\u8FE6\u724C\u3002"
+  "\u7B49\u7EA7": 0
+  "\u662F\u5426\u51FA\u73B0\u5728\u9152\u9986": 0
+  "\u662F\u5426\u4E3A\u91D1": 1
+  "\u5361\u724C\u56FE": {fileID: 5725698454378644251, guid: 529b0bebcb887e44080ad881667c3d0a, type: 3}

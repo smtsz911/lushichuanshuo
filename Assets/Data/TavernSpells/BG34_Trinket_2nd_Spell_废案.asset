@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c78b5a1c156778b4288cb452b671fae0, type: 3}
+  m_Name: "\u5E9F\u6848"
+  m_EditorClassIdentifier: Assembly-CSharp::TavernSpellData
+  "\u540D\u79F0": "\u5E9F\u6848"
+  "ID": "BG34_Trinket_2nd_Spell"
+  "\u63CF\u8FF0": "\u5E9F\u6848 -- \u4F7F\u7528XXX<b>\u9970\u54C1</b>\u6216\u6539\u4E3AXXX<b>\u9970\u54C1</b>2\u3002"
+  "\u7B49\u7EA7": 3
+  "\u662F\u5426\u51FA\u73B0\u5728\u9152\u9986": 0
+  "\u8D39\u7528": 2
+  "\u5361\u724C\u56FE": {fileID: 3235406386700552944, guid: ca52004f67421d642a5128ec7b977192, type: 3}

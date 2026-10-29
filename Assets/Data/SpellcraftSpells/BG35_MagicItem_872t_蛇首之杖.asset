@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bec8c1688ea24ea4a80461a7aa92b489, type: 3}
+  m_Name: "\u86C7\u9996\u4E4B\u6756"
+  m_EditorClassIdentifier: Assembly-CSharp::SpellcraftSpellData
+  "\u540D\u79F0": "\u86C7\u9996\u4E4B\u6756"
+  "ID": "BG35_MagicItem_872t"
+  "\u63CF\u8FF0": "\u4F7F\u4E00\u53EA\u91CE\u517D\u83B7\u5F97+2/+2\u548C<b>\u590D\u751F</b>\u3002"
+  "\u7B49\u7EA7": 0
+  "\u662F\u5426\u51FA\u73B0\u5728\u9152\u9986": 0
+  "\u662F\u5426\u4E3A\u91D1": 0
+  "\u5361\u724C\u56FE": {fileID: -3518086964566183661, guid: b1852e0cfe65d1e418c0fd94eb980d7a, type: 3}

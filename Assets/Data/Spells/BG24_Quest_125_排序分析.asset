@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76bbd0922215e484a86b760f2bda694a, type: 3}
+  m_Name: "\u6392\u5E8F\u5206\u6790"
+  m_EditorClassIdentifier: Assembly-CSharp::SpellData
+  "\u540D\u79F0": "\u6392\u5E8F\u5206\u6790"
+  "ID": "BG24_Quest_125"
+  "\u63CF\u8FF0": "<b>\u4EFB\u52A1\uFF1A</b>\u57280\u573A\u6218\u6597\u4E2D\u5C06\u4F60\u7684\u968F\u4ECE\u6309\u653B\u51FB\u529B\u7531\u4F4E\u5230\u9AD8\u6392\u5217\u3002"
+  "\u7B49\u7EA7": 0
+  "\u662F\u5426\u51FA\u73B0\u5728\u9152\u9986": 0
+  "\u5361\u724C\u56FE": {fileID: 3323344309436671931, guid: 5e8f1193c25e58848bb320e209d40284, type: 3}

@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c78b5a1c156778b4288cb452b671fae0, type: 3}
+  m_Name: "\u79BB\u5F00\u65F6\u7A7A\u626D\u66F2\u9152\u9986"
+  m_EditorClassIdentifier: Assembly-CSharp::TavernSpellData
+  "\u540D\u79F0": "\u79BB\u5F00\u65F6\u7A7A\u626D\u66F2\u9152\u9986"
+  "ID": "BG34_BlackMarket_Skip"
+  "\u63CF\u8FF0": "<b>\u8D2D\u4E70\u65F6\u65BD\u653E</b> <i>\u5C06\u4F60\u7684\u65F6\u5149\u6807\u8BB0\u4FDD\u7559\u81F3\u4E0B\u6B21<b>\u65F6\u7A7A\u626D\u66F2</b>\uFF01</i>"
+  "\u7B49\u7EA7": 0
+  "\u662F\u5426\u51FA\u73B0\u5728\u9152\u9986": 0
+  "\u8D39\u7528": 0
+  "\u5361\u724C\u56FE": {fileID: 3078942743380519566, guid: 74f5647444b569946963f28dadec7654, type: 3}

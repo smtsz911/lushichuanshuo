@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76bbd0922215e484a86b760f2bda694a, type: 3}
+  m_Name: "\u6B7B\u4EA1\u56DE\u6EAF\u88C5\u7F6E"
+  m_EditorClassIdentifier: Assembly-CSharp::SpellData
+  "\u540D\u79F0": "\u6B7B\u4EA1\u56DE\u6EAF\u88C5\u7F6E"
+  "ID": "BG24_Reward_715t4"
+  "\u63CF\u8FF0": "\u4F7F\u4E00\u4E2A\u968F\u4ECE\u83B7\u5F97+5/+5\u548C<b>\u590D\u751F</b>\u3002"
+  "\u7B49\u7EA7": 0
+  "\u662F\u5426\u51FA\u73B0\u5728\u9152\u9986": 0
+  "\u5361\u724C\u56FE": {fileID: 3598005148547340702, guid: c78c00d8876935744b8a9184625b3cca, type: 3}

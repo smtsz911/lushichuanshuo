@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76bbd0922215e484a86b760f2bda694a, type: 3}
+  m_Name: "\u6F14\u5316\u5377\u8F74"
+  m_EditorClassIdentifier: Assembly-CSharp::SpellData
+  "\u540D\u79F0": "\u6F14\u5316\u5377\u8F74"
+  "ID": "BG31_Anomaly_102t"
+  "\u63CF\u8FF0": "\u5982\u679C\u8FD9\u5F20\u724C\u5728\u4F60\u7684\u624B\u724C\u4E2D\uFF0C\u6BCF\u4E2A\u56DE\u5408\u90FD\u4F1A\u968F\u673A\u53D8\u6210\u4E00\u5F20\u9AD8\u4E00\u7EA7\u7684\u9152\u9986\u6CD5\u672F\u724C\u3002"
+  "\u7B49\u7EA7": 0
+  "\u662F\u5426\u51FA\u73B0\u5728\u9152\u9986": 0
+  "\u5361\u724C\u56FE": {fileID: 8155911800687486264, guid: c61c4847b5d4a6e48b891f72a16cd06a, type: 3}

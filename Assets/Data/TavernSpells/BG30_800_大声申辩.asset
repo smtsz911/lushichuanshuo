@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c78b5a1c156778b4288cb452b671fae0, type: 3}
+  m_Name: "\u5927\u58F0\u7533\u8FA9"
+  m_EditorClassIdentifier: Assembly-CSharp::TavernSpellData
+  "\u540D\u79F0": "\u5927\u58F0\u7533\u8FA9"
+  "ID": "BG30_800"
+  "\u63CF\u8FF0": "\u83B7\u53D6\u4F60\u4E0A\u4E00\u4E2A \u5BF9\u624B\u7684\u6218\u961F\u4E2D\u4E00\u4E2A\u968F\u673A\u968F\u4ECE\u7684\u4E00\u5F20 \u539F\u59CB\u7248\u590D\u5236\u3002"
+  "\u7B49\u7EA7": 3
+  "\u662F\u5426\u51FA\u73B0\u5728\u9152\u9986": 1
+  "\u8D39\u7528": 2
+  "\u5361\u724C\u56FE": {fileID: -2350741220369330081, guid: 5015d78be4b477b4b9431a398e01a7ce, type: 3}

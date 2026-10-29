@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76bbd0922215e484a86b760f2bda694a, type: 3}
+  m_Name: "\u7CBE\u7F8E\u91D1\u676F"
+  m_EditorClassIdentifier: Assembly-CSharp::SpellData
+  "\u540D\u79F0": "\u7CBE\u7F8E\u91D1\u676F"
+  "ID": "BGS_Treasures_106"
+  "\u63CF\u8FF0": "\u7528\u968F\u673A\u7684 \u9152\u9986\u6CD5\u672F\u586B\u6EE1\u4F60\u7684\u624B\u724C\u3002"
+  "\u7B49\u7EA7": 4
+  "\u662F\u5426\u51FA\u73B0\u5728\u9152\u9986": 0
+  "\u5361\u724C\u56FE": {fileID: -6805994261626364032, guid: dc86571742971754a8e3faaac6dcde65, type: 3}

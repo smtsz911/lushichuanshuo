@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76bbd0922215e484a86b760f2bda694a, type: 3}
+  m_Name: "\u593A\u5FC3\u62A4\u76EE\u955C"
+  m_EditorClassIdentifier: Assembly-CSharp::SpellData
+  "\u540D\u79F0": "\u593A\u5FC3\u62A4\u76EE\u955C"
+  "ID": "TB_BaconShop_HERO_35_Buddy_t8"
+  "\u63CF\u8FF0": "\u968F\u673A\u65BD\u653E4\u4E2A\u9152\u9986\u6CD5\u672F\u3002"
+  "\u7B49\u7EA7": 0
+  "\u662F\u5426\u51FA\u73B0\u5728\u9152\u9986": 0
+  "\u5361\u724C\u56FE": {fileID: 5181407057546627428, guid: 9da3d766b6d7ae64a9c736efb6eb2bcd, type: 3}

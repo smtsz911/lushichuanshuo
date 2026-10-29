@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bec8c1688ea24ea4a80461a7aa92b489, type: 3}
+  m_Name: "\u6D77\u6D0B\u53EC\u5524"
+  m_EditorClassIdentifier: Assembly-CSharp::SpellcraftSpellData
+  "\u540D\u79F0": "\u6D77\u6D0B\u53EC\u5524"
+  "ID": "BG27_012t"
+  "\u63CF\u8FF0": "\u9009\u62E9\u4E00\u4E2A\u968F\u4ECE\uFF0C\u5728\u9152\u9986\u4E2D\u6DFB\u52A0\u4E00\u4E2A\u4E0E\u5176\u540C\u7C7B\u578B\u7684\u968F\u4ECE\u3002"
+  "\u7B49\u7EA7": 0
+  "\u662F\u5426\u51FA\u73B0\u5728\u9152\u9986": 0
+  "\u662F\u5426\u4E3A\u91D1": 0
+  "\u5361\u724C\u56FE": {fileID: 4027206592831818186, guid: 6f54e53d24e171446a4842353d3fdcbf, type: 3}

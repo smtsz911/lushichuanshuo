@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c78b5a1c156778b4288cb452b671fae0, type: 3}
+  m_Name: "\u65F6\u7A7A\u626D\u66F2\u7B3C\u4E2D\u4E4B\u9F20"
+  m_EditorClassIdentifier: Assembly-CSharp::TavernSpellData
+  "\u540D\u79F0": "\u65F6\u7A7A\u626D\u66F2\u7B3C\u4E2D\u4E4B\u9F20"
+  "ID": "BG34_Treasure_905"
+  "\u63CF\u8FF0": "\u4F7F\u4E00\u4E2A\u968F\u4ECE\u83B7\u5F97+2/+2\uFF0C\u7136\u540E\u4F7F\u5176\u5C5E\u6027\u503C\u7FFB\u500D\u3002"
+  "\u7B49\u7EA7": 5
+  "\u662F\u5426\u51FA\u73B0\u5728\u9152\u9986": 0
+  "\u8D39\u7528": 1
+  "\u5361\u724C\u56FE": {fileID: -4169953859591976245, guid: 3c21e7d2006e6c14a92fd5a5ff0d515b, type: 3}

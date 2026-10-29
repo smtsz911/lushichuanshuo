@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bec8c1688ea24ea4a80461a7aa92b489, type: 3}
+  m_Name: "\u5947\u672F\u6742\u800D"
+  m_EditorClassIdentifier: Assembly-CSharp::SpellcraftSpellData
+  "\u540D\u79F0": "\u5947\u672F\u6742\u800D"
+  "ID": "BG31_924t"
+  "\u63CF\u8FF0": "\u76F4\u5230\u4E0B\u4E2A\u56DE\u5408\uFF0C\u4F7F\u4E00\u4E2A\u968F\u4ECE\u83B7\u5F97+1/+1\u3002<i>\uFF08\u5728\u672C\u5C40\u5BF9\u6218\u4E2D\uFF0C\u4F60\u6BCF\u65BD\u653E3\u4E2A\u6CD5\u672F\u90FD\u4F1A\u63D0\u5347\uFF01\uFF09</i>3\u76F4\u5230\u4E0B\u4E2A\u56DE\u5408\uFF0C\u4F7F\u4E00\u4E2A\u968F\u4ECE\u83B7\u5F97+1/+1\u3002<i>\uFF08\u65BD\u653E3/3\u4E2A\u6CD5\u672F\u5373\u53EF\u63D0\u5347\uFF01\uFF09</i>"
+  "\u7B49\u7EA7": 0
+  "\u662F\u5426\u51FA\u73B0\u5728\u9152\u9986": 0
+  "\u662F\u5426\u4E3A\u91D1": 0
+  "\u5361\u724C\u56FE": {fileID: 7507390978346091892, guid: 0271328f8f1bf854f9b738ab98b3bc53, type: 3}

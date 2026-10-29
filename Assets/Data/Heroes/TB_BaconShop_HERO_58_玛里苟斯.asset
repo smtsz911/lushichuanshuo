@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1140000011400001
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 720c5300a0377364dad5f351de660b68, type: 3}
+  m_Name: "\u739B\u91CC\u82DF\u65AF"
+  m_EditorClassIdentifier: Assembly-CSharp::HeroData
+  "\u540D\u79F0": "\u739B\u91CC\u82DF\u65AF"
+  "\u62A4\u7532": 14
+  "\u8840\u91CF": 30
+  "\u6280\u80FD\u540D\u79F0": "\u5965\u672F\u53D8\u6613"
+  "\u6280\u80FD\u63CF\u8FF0": "\u5C06\u4E00\u5F20\u724C\u968F\u673A\u66FF\u6362\u4E3A\u4E00\u5F20\u7B49\u7EA7\u76F8\u540C\u7684\u724C\u3002<i>\uFF08\u6BCF\u56DE\u5408\u53EF\u4F7F\u7528\u4E24\u6B21\u3002\uFF09</i>"
+  "\u6280\u80FD\u8D39\u7528": 0
+  "\u6280\u80FD\u53D1\u52A8\u5F62\u5F0F": 1
+  "\u4E3B\u52A8\u6280\u80FD\u5DF2\u7ECF\u4E3B\u52A8\u53D1\u52A8": 0
+  "\u5934\u50CF\u56FE": {fileID: 7567959619199298234, guid: 7d5f9de15290c9d458750a783ef49975, type: 3}
+  "\u7ACB\u7ED8\u56FE": {fileID: 7567959619199298234, guid: a550937a90ae12b42b85759edff27e07, type: 3}
+  "\u6280\u80FD\u56FE": {fileID: -1641711536958776899, guid: e60bbbf24522b374bb1736b3d9a9a192, type: 3}

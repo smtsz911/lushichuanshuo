@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76bbd0922215e484a86b760f2bda694a, type: 3}
+  m_Name: "\u4EBA\u624D\u5730\u56FE"
+  m_EditorClassIdentifier: Assembly-CSharp::SpellData
+  "\u540D\u79F0": "\u4EBA\u624D\u5730\u56FE"
+  "ID": "TB_BaconShop_HP_047t"
+  "\u63CF\u8FF0": "<b>\u53D1\u73B0</b>\u4E00\u4E2A<b>\u7B49\u7EA70</b>\u7684\u968F\u4ECE\u3002"
+  "\u7B49\u7EA7": 0
+  "\u662F\u5426\u51FA\u73B0\u5728\u9152\u9986": 0
+  "\u5361\u724C\u56FE": {fileID: -1425790667815518220, guid: 65d7ca370335c694f8de561ce92a9926, type: 3}

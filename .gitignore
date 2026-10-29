@@ -1,0 +1,63 @@
+# ===== Unity 标准忽略 =====
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
+/[Cc]rashReports/
+
+# IDE / 编译产物
+.vs/
+.vsconfig
+.idea/
+*.csproj
+*.sln
+*.slnx
+*.user
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# ===== 暴雪版权美术：不上传公开仓库（仅个人学习使用）=====
+# 随从卡图与立绘
+Assets/Art/Cards/*.png
+Assets/Art/Cards/*.png.meta
+Assets/Art/MinionArt/*.png
+Assets/Art/MinionArt/*.png.meta
+Assets/Art/MinionArt/*.jpg
+Assets/Art/MinionArt/*.jpg.meta
+
+# 法术卡图
+Assets/Art/Spells/酒馆法术/*.png
+Assets/Art/Spells/酒馆法术/*.png.meta
+Assets/Art/Spells/塑造法术/*.png
+Assets/Art/Spells/塑造法术/*.png.meta
+Assets/Art/Spells/其他法术/*.png
+Assets/Art/Spells/其他法术/*.png.meta
+Assets/Art/Spells/巡航舰法术/*.png
+Assets/Art/Spells/巡航舰法术/*.png.meta
+
+# 英雄卡/头像/技能图标
+Assets/Art/Heroes/Cards/*.png
+Assets/Art/Heroes/Cards/*.png.meta
+Assets/Art/Heroes/Portraits/*.png
+Assets/Art/Heroes/Portraits/*.png.meta
+Assets/Art/Heroes/Powers/*.png
+Assets/Art/Heroes/Powers/*.png.meta
+Assets/Art/Heroes/Powers/*.webp
+Assets/Art/Heroes/Powers/*.webp.meta
+
+# 官方战棋 UI 截图与按钮
+Assets/Art/UI/官方战棋UI/*.png
+Assets/Art/UI/官方战棋UI/*.png.meta
+
+# ===== 数据清单 CSV（名称/数值数据）保留上传，卡图不传 =====
+# （见 Assets/Art/README.md 的使用说明）

@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0c1f4b6bed957a458bee207fdbe5073, type: 3}
+  m_Name: "\u8D85\u7EA7\u7535\u5BB9\u5668"
+  m_EditorClassIdentifier: Assembly-CSharp::leinuoSpell
+  "\u540D\u79F0": "\u8D85\u7EA7\u7535\u5BB9\u5668"
+  "ID": "BG31_HERO_801ptj"
+  "\u63CF\u8FF0": "\u4F7F\u4F60\u7684\u6218\u5217\u5DE1\u822A\u8230\u83B7\u5F97<b>\u590D\u751F</b>\u548C\u201C\u672C\u968F\u4ECE<b>\u590D\u751F</b>\u65F6\u4F1A\u5177\u6709\u6240\u6709\u751F\u547D\u503C\u548C\u9644\u52A0\u6548\u679C\u3002\u201D"
+  "\u7B49\u7EA7": 6
+  "\u662F\u5426\u51FA\u73B0\u5728\u9152\u9986": 0
+  "\u8D39\u7528": 6
+  "\u5361\u724C\u56FE": {fileID: 7212780866528959822, guid: 4bbd2704ce3d1a645b3dcd168d25b3fa, type: 3}
