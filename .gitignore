@@ -64,3 +64,19 @@ Assets/Art/UI/官方战棋UI/*.png.meta
 
 # 开发指南：仅本地保留，不上传仓库
 酒馆战棋开发指南.md
+
+# 提取自客户端的官方主界面素材与特效（暴雪版权，仅本机使用）
+Assets/Art/UI/炉石主界面素材/*.png
+Assets/Art/UI/炉石主界面素材/*.png.meta
+Assets/Art/VFX/*.png
+Assets/Art/VFX/*.png.meta
+Assets/Art/UI/酒馆战斗/**/*.png
+Assets/Art/UI/酒馆战斗/**/*.png.meta
+
+# Unity 崩溃恢复临时目录
+Assets/_Recovery/
+Assets/Art/UI/官方战棋UI/*.jpg
+Assets/Art/UI/官方战棋UI/*.jpg.meta
+Assets/Art/UI/酒馆战棋界面/*.png
+Assets/Art/UI/酒馆战棋界面/*.png.meta
+Assets/_Recovery.meta
