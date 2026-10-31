@@ -1,0 +1,71 @@
+using DG.Tweening;
+using UnityEngine;
+using UnityEngine.EventSystems;
+
+public class TuoKa : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHandler
+{
+    RectTransform kaRT;
+    Transform jia;          // 原来的家（手牌区）
+    Vector2 pianyi;         // 鼠标和卡中心的偏移
+
+    public int kaSuoYin;
+
+    void Awake()
+    {
+        kaRT = GetComponent<RectTransform>();
+    }
+
+    public void OnBeginDrag(PointerEventData e)
+    {
+        jia = transform.parent;                 // 1. 记住家
+        transform.SetParent(transform.root);    // 2. 脱离布局组，挂到 Canvas 下
+        kaRT.localScale = Vector3.one * 1.15f;  // 3. 拖起放大一点（原版手感）
+
+        Debug.Log("家的位置:( " + jia.position.x + ", " + jia.position.y+")");
+
+        Vector2 shuBiaoPos;
+        RectTransformUtility.ScreenPointToLocalPointInRectangle(
+            (RectTransform)transform.parent, e.position, null, out shuBiaoPos);
+        pianyi = (Vector2)kaRT.localPosition - shuBiaoPos;   // 4. 记偏移，卡不跳
+    }
+
+    public void OnDrag(PointerEventData e)
+    {
+        Vector2 pos;
+        RectTransformUtility.ScreenPointToLocalPointInRectangle(
+            (RectTransform)transform.parent, e.position, null, out pos);
+        kaRT.localPosition = pos + pianyi;     // 卡跟着鼠标（保持偏移）
+    }
+
+    public void OnEndDrag(PointerEventData e)
+    {
+        int xinWei = 0;
+        foreach (RectTransform qiTa in jia)        // jia = 手牌区，遍历里面的卡
+        {
+            if (qiTa == kaRT) continue;            // 跳过自己
+            if (kaRT.position.x > qiTa.position.x)
+            {
+                xinWei++;                          // 我的 x 比几张卡大，就排第几
+            }
+        }
+        bool zaiShouPai = RectTransformUtility.RectangleContainsScreenPoint(
+      (RectTransform)jia,   // jia 是手牌区，Transform 转成 RectTransform
+      e.position,           // 松手瞬间的鼠标位置（屏幕坐标，直接拿来用）
+      null);
+        transform.SetParent(jia);
+        if (zaiShouPai)
+        {
+            
+            gamemanage gm = FindAnyObjectByType<gamemanage>();   // 找到管理器
+            gm.HuanWei(kaSuoYin, xinWei);
+            
+        }
+        else
+        {
+            gamemanage gm = FindAnyObjectByType<gamemanage>();   // 找到管理器
+            gm.HuanWei(kaSuoYin, kaSuoYin);                    // 重建 UI（新顺序自动排好）
+        }
+        kaRT.localScale = Vector3.one;         // 恢复大小
+        // 布局组自动把卡排回原位，不用写代码
+    }
+}

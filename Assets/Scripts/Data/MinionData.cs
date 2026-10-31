@@ -5,18 +5,10 @@ using UnityEngine;
 /// 创建方式：项目窗口右键 → 创建 → 随从数据。
 /// </summary>
 [CreateAssetMenu(menuName = "LSCS/随从数据", fileName = "NewMinion", order = 0)]
-public class MinionData : ScriptableObject
+public class MinionData : CardData
 {
-    [Header("基本信息")]
-    [Tooltip("随从中文名")]
-    public string 名称;
-
-    [Tooltip("卡面描述文本，照抄卡图上的中文描述")]
-    [TextArea]
-    public string 描述;
-
     [Tooltip("随从星级（1~6），决定招募概率、伤害和出售价值")]
-    [Range(1, 6)]
+    [Range(1, 7)]
     public int 星级 = 1;
 
     [Tooltip("随从种族")]
@@ -54,6 +46,9 @@ public class MinionData : ScriptableObject
 
     [Tooltip("立绘：Assets/Art/MinionArt 里同名卡牌ID的原画（站场用）")]
     public Sprite 立绘;
+
+     /// <summary>商店/手牌显示立绘（原版观感、缩放清晰）。想显示完整卡面就改成 => 卡图</summary>
+    public override Sprite 显示图 => 卡图;
 }
 
 /// <summary>随从种族</summary>
@@ -99,5 +94,5 @@ public enum Keyword
     烈毒 = 1 << 3,
     复生 = 1 << 4,
 
-    潜行=1 << 4,
+    潜行=1 << 5,
 }
